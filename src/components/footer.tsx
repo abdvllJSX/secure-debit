@@ -28,7 +28,7 @@ const footer = () => {
                             placeholder="Your E-mail Address"
                         />
                         <Button
-                            className="py-[2.3rem] px-[1.6rem] bg-[#1B82E2] text-[#000000] rounded-[1rem]"
+                            className="py-[2.3rem] px-[1.6rem] bg-[#1B82E2] text-[#000000] sm:text-[1.4rem] rounded-[1rem]"
                         >
                             Get Notified
                         </Button>

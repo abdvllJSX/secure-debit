@@ -28,7 +28,7 @@ const Hero = () => {
                         Providing KYC and Direct Debit services for Mortgage Banks & Property Development Firms serving Diaspora customers
                     </p>
                 </div>
-                <Button className="bg-[#1B82E2] w-full mt-[2rem] sm:mt-[4rem] px-[2.5rem] rounded-[.5rem] text-[1.6rem] text-black sm:py-[2rem] py-[2.5rem] font-[600]">
+                <Button className="bg-[#1B82E2] w-full sm:w-fit mt-[2rem] sm:mt-[4rem] px-[2.5rem] rounded-[.5rem] text-[1.6rem] text-black sm:py-[2rem] py-[2.5rem] font-[600]">
                     Contact Us
                 </Button>
             </div>

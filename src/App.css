@@ -43,6 +43,7 @@
 
 html {
   font-size: min(15px, 0.6944vw);
+  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 600px) {
@@ -60,11 +61,12 @@ body {
   font-size: 1.4rem;
   width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 button {
   font-size: inherit;
-  scroll-behavior: smooth;
+  font-family: inherit;
 }
 
 ::-webkit-scrollbar{
