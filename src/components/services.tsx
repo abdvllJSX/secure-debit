@@ -55,7 +55,7 @@ const Services = () => {
             <h2 className="text-[3rem] leading-[3rem] font-[600] text-[#1B82E2] text-center">
                 Services
             </h2>
-            <div className="mt-[3ren]">
+            <div className="mt-[3rem] max-w-[1900px] mx-auto">
                 <h3 className="uppercase text-[1.6rem] text-[#1B82E2] font-[600]">kyc</h3>
                 <h3 className="text-[2.5rem] font-[500]">Credit and Background Checks</h3>
             </div>
