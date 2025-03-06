@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import Modal from "./modal";
 
 const CTA = () => {
     return (
@@ -12,9 +13,12 @@ const CTA = () => {
                         Contact us today to learn how SecureDebit's KYC and Direct Debit services can benefit your business.
                     </p>
 
-                    <Button className="mt-[3rem] sm:w-fit mx-auto sm:mx-[0] px-[3rem] rounded-[.5rem] bg-[#1B82E2] text-[#000000] text-[1.6rem] font-[600] sm:py-[2rem] py-[2.2rem]">
-                        Contact Us
-                    </Button>
+                    <Modal>
+                        <Button className="mt-[3rem] sm:w-fit mx-auto sm:mx-[0] px-[3rem] rounded-[.5rem] bg-[#1B82E2] text-[#000000] text-[1.6rem] font-[600] sm:py-[2rem] py-[2.2rem]">
+                            Contact Us
+                        </Button>
+                    </Modal>
+
                 </div>
 
                 <img
