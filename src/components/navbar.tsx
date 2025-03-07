@@ -36,6 +36,9 @@ const Navbar = () => {
 
     return (
         <nav className="w-[100vw] sm:py-[2.2rem] py-[2rem] bg-[#FFFFFF] shadow sm:px-[7rem] px-[2.5rem]">
+            {
+                open && (<div className="fixed inset-0 backdrop-blur-sm bg-[#101828B2] z-[2]"></div>)
+            }
             <div className="flex max-w-[1900px] mx-auto justify-between items-center">
                 <img
                     src="/common/logo.png"
@@ -43,10 +46,10 @@ const Navbar = () => {
                     className="sm:w-[17rem] relative z-[11] w-[11rem]"
                 />
 
-                <ul className={`flex ${open ? "translate-y-[0]" : "translate-y-[-100%] sm:translate-y-[0]"} transition-all duration-300 sm:flex-row flex-col bg-[#F5F5F5] px-[2.5rem]
-                sm:px-[0] top-[0] left-[0] right-[0] h-[46vh] shadow sm:shadow-none sm:h-auto sm:bg-transparent w-[100vw] sm:w-auto pt-[8rem] sm:pt-[0] z-[10] fixed sm:static sm:gap-[4rem] gap-[2.3rem] items-start`}>
+                <ul className={`flex ${open ? "translate-y-[0]" : "translate-y-[-105%] sm:translate-y-[0]"} transition-all duration-300 sm:flex-row flex-col bg-[#F5F5F5] px-[2.5rem]
+                sm:px-[0] top-[0] sm:rounded-[0] rounded-b-[2rem] pb-[5rem] sm:pb-[0] left-[0] right-[0] shadow sm:shadow-none sm:h-auto sm:bg-transparent w-[100vw] sm:w-auto pt-[8rem] sm:pt-[0] z-[10] fixed sm:static sm:gap-[4rem] gap-[2.3rem] items-start`}>
                     {navItems.map((item, index) => (
-                        <li key={index} className="sm:font-[500] font-[600] sm:text-[1.6rem] text-[2.2rem] sm:text-[#737373] text-[#000000]">
+                        <li key={index} className="sm:font-[500]  font-[600] sm:text-[1.6rem] text-[2.2rem] sm:text-[#737373] text-[#000000]">
                             <a onClick={toggleNav} href={item.link}>{item.name}</a>
                         </li>
                     ))}
@@ -62,7 +65,7 @@ const Navbar = () => {
                         </Modal>
                     </li>
                 </ul>
-                
+
                 <Modal>
                     <Button
                         variant={"ghost"}
