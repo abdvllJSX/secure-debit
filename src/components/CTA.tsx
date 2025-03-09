@@ -14,7 +14,7 @@ const CTA = () => {
                     </p>
 
                     <Modal>
-                        <Button className="mt-[3rem] sm:w-fit mx-auto sm:mx-[0] px-[3rem] rounded-[.5rem] bg-[#1B82E2] text-[#000000] text-[1.6rem] font-[600] sm:py-[2rem] py-[2.2rem]">
+                        <Button className="mt-[3rem] sm:w-fit mx-auto hover:bg-[#092E4F] hover:text-white transition-all duration-100 sm:mx-[0] px-[3rem] rounded-[.5rem] cursor-pointer bg-[#1B82E2] text-[#000000]  text-[1.6rem] font-[600] sm:py-[2rem] py-[2.2rem]">
                             Contact Us
                         </Button>
                     </Modal>

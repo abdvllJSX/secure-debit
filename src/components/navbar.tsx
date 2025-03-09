@@ -72,7 +72,7 @@ const Navbar = () => {
                 <Modal>
                     <Button
                         variant={"ghost"}
-                        className="font-[500] hidden sm:flex text-[1.6rem] rounded-[1rem] py-[1.8rem] px-[3rem] border border-[#595959] text-[#737373]"
+                        className="font-[500] hidden sm:flex text-[1.6rem] rounded-[1rem] py-[1.8rem] hover:bg-[#092E4F] hover:text-white transition-all duration-100 cursor-pointer px-[3rem] border border-[#595959] text-[#737373]"
                     >
                         Contact Us
                     </Button>

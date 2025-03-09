@@ -28,7 +28,7 @@ const footer = () => {
                             placeholder="Your E-mail Address"
                         />
                         <Button
-                            className="py-[2.3rem] px-[1.6rem] bg-[#1B82E2] text-[#000000] sm:text-[1.4rem] rounded-[1rem]"
+                            className="py-[2.3rem] px-[1.6rem] bg-[#1B82E2] text-[#000000] sm:text-[1.4rem] hover:bg-[#092E4F] hover:text-white transition-all duration-100 cursor-pointer rounded-[1rem]"
                         >
                             Get Notified
                         </Button>
@@ -68,9 +68,9 @@ const footer = () => {
 
                     <div className="mt-[3rem]">
                         <h2 className="text-[2.5rem] font-[600]">Office</h2>
-                        <div className="text-[#737373] text-[1.7rem] my-[1rem]">
-                            <p className="">SecureDebit Ltd.</p>
-                            <p className="">123 Financial Street, London, UK</p>
+                        <div className="text-[#737373] flex flex-col gap-[.3rem] text-[1.7rem] my-[1rem]">
+                            <p className="">SecureID - registered</p>
+                            <p className="">99, White Street, London N1 9PF</p>
                         </div>
                     </div>
                 </div>
