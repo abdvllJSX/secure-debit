@@ -15,17 +15,17 @@ const Services = () => {
         {
             title: "Risk Assessment Support",
             description: "Identify creditworthy borrowers, manage the risk involved in extending credit and recover unpaid debt.",
-            icon: "risk-analysis"
+            icon: "risk-assessment"
         },
         {
             title: "Know Your Customer (KYC)",
             description: "Know Your Customer (KYC) is a product used to assess and verify the identity of a customer. This involves collecting basic information such as names, Government identity numbers, date of birth, addresses, phone number, national identification number or a valid driver’s licence. This information could also be verified from our credit information database. Our KYC product is a key tool for prequalifying your borrowers.",
-            icon: "campaign"
+            icon: "KYC"
         },
         {
             title: "Credit Reporting",
             description: "Our Credit Report helps determine the credit rating and standing of customers before approving credit lines to them. It also gives an insight into all of an individual’s or corporate entity’s credit account summary, with details of open, closed (paid-off), good standing (performing) accounts broken down throughout the report.",
-            icon: "debt"
+            icon: "credit_reporting"
         }
     ]
 
@@ -100,9 +100,11 @@ const Card = ({ title, description, icon }: CardProps) => {
     return (
         <div className="bg-[#F5F5F5] rounded-[2rem] pt-[4rem] pb-[5rem] px-[2.5rem]">
             <div className="sm:mb-[9rem] mb-[7rem]">
-                <div className="rounded-full w-[5rem] grid place-content-center bg-[#1B82E2] h-[5rem]">
-                    <img src={`/services/${icon}.svg`} alt="icon" />
-                </div>
+                <img
+                    src={`/services/${icon}.png`}
+                    alt="icon"
+                    className="w-[9rem]"
+                />
             </div>
             <h2 className="text-[2.5rem] font-[500]">{title}</h2>
             <p className="sm:text-[1.8rem] text-[1.7rem] text-[#595959]">{description}</p>
