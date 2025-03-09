@@ -130,7 +130,7 @@ const TeamMember = ({ name, role, img, about }: { name: string, role: string, im
                                 <p className="sm:max-w-[40rem] max-w-[28rem]  text-[#737373] sm:mt-[1rem] mt-[1rem] sm:text-[1.9rem]" key={index}>{item}{about.length >  1 && <span className="">...</span>}{about.length > 1 && (
                                     <Dialog>
                                         <DialogTrigger asChild>
-                                            <span className="text-[#1B82E2] hover:cursor-pointer">Learn More</span>
+                                            <span className="text-[#1B82E2] hover:cursor-pointer hidden sm:inline">Learn More</span>
                                         </DialogTrigger>
                                         <DialogContent className="p-0 sm:max-w-[80rem] pr-[3.5rem] pb-[3rem]">
                                             <DialogHeader className="flex gap-[2.4rem] items-start flex-row">
