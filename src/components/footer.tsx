@@ -40,7 +40,7 @@ const footer = () => {
                         <h2 className="text-[2.5rem] font-[600]">Contact</h2>
                         <div className="">
                             <div className="text-[#737373] text-[1.7rem] my-[1rem]">
-                                <p className="">info@securedebit.com</p>
+                                <p className="">info@securedebit.co.uk</p>
                                 <p className="">+44 12 3456 7890</p>
                             </div>
 
@@ -69,7 +69,7 @@ const footer = () => {
                     <div className="mt-[3rem]">
                         <h2 className="text-[2.5rem] font-[600]">Office</h2>
                         <div className="text-[#737373] flex flex-col gap-[.3rem] text-[1.7rem] my-[1rem]">
-                            <p className="">SecureID - registered</p>
+                            <p className="">Securedebit Limited - registered</p>
                             <p className="">99, White Street, London N1 9PF</p>
                         </div>
                     </div>

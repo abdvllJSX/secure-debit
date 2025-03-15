@@ -41,19 +41,22 @@ const Team = () => {
             name: "Olufemi Fajebe",
             role: "",
             img: "olufemi",
-            about: ["Olufemi Fajebe brings expertise in accounting, auditing, taxation, and financial consulting. As a chartered accountant and member of The Institute of Chartered Accountants England and Wales (ICAEW), The Institute of Chartered Accountant of Nigeria and Certified Information   Systems Auditor (CISA), Olufemi has extensive experience working with SMEs, multinational corporations, and government institutions. His strong background in financial due diligence, revenue assurance, and risk management positions him at the forefront of Securedebit Limited’s mission to revolutionize financial technology solutions for Africans in diaspora."]
+            about: ["Olufemi Fajebe brings expertise in accounting, auditing, taxation, and financial consulting. As a chartered accountant and member of The Institute of Chartered Accountants England and Wales (ICAEW), The Institute of Chartered Accountant of Nigeria and Certified Information   Systems Auditor (CISA), Olufemi has extensive experience working with SMEs, multinational corporations, and government institutions. His strong background in financial due diligence, revenue assurance, and risk management positions him at the forefront of Securedebit Limited’s mission to revolutionize financial technology solutions for Africans in diaspora."],
+            email: "Femi.Fajebe@securedebit.co.uk"
         },
         {
             name: "Titus Ayodele",
             role: "",
             img: "titus",
-            about: ["seasoned financial expert with over 20 years of experience in accountancy, taxation, and financial advisory. As the Managing Partner at Julius and Julius & Associates LLP, he has demonstrated excellence in strategic financial management, corporate governance, and business leadership. A Fellow of multiple professional bodies, including the Institute of Financial Accountants, Titus provides valuable financial oversight and strategic guidance to Securedebit Limited."]
+            about: ["seasoned financial expert with over 20 years of experience in accountancy, taxation, and financial advisory. As the Managing Partner at Julius and Julius & Associates LLP, he has demonstrated excellence in strategic financial management, corporate governance, and business leadership. A Fellow of multiple professional bodies, including the Institute of Financial Accountants, Titus provides valuable financial oversight and strategic guidance to Securedebit Limited."],
+            email: "Titus.Ayodele@securedebit.co.uk"
         },
         {
             name: "Dr. Gabriel Olayinka Aloku",
             role: "(IMChemE, CEng)",
             img: "gabriel",
-            about: ["Dr. Gabriel Olayinka Aloku is a highly accomplished Executive, Senior Project Manager and Consultant with over 20 years of experience leading complex, high-value projects across Oil & Gas, Engineering Consultancy, Petrochemicals, IT, Finance, Manufacturing, and Academia. His career spans major multinational organizations, including BP, Chevron, Shell, NNPC, Saudi Aramco, Grant Thornton, and NatWest, where he has successfully overseen multi-million to multi-billion dollar projects", "Currently serving as a Senior Project Manager at Grant Thornton and Co-Founder of Melon Technologies, Dr. Aloku specializes in data governance, compliance,financial technology solutions, and business transformation.", "He has played a pivotal role in developing and implementing enterprise-wide data governance strategies, ensuring regulatory compliance, and optimizing business processes for enhanced efficiency. Dr.Aloku holds a PhD in Chemical Engineering from the University of Manchester, UK, and a First - Class BSc(Hons) in Industrial Chemistry from the University of Lagos, Nigeria.His academic and professional expertise extends into computational fluid dynamics(CFD), process engineering, financial structuring, and risk management.Throughout his career, he has been instrumental in engineering process optimization, regulatory compliance, and business strategy development, ensuring seamless project execution across industries."]
+            about: ["Dr. Gabriel Olayinka Aloku is a highly accomplished Executive, Senior Project Manager and Consultant with over 20 years of experience leading complex, high-value projects across Oil & Gas, Engineering Consultancy, Petrochemicals, IT, Finance, Manufacturing, and Academia. His career spans major multinational organizations, including BP, Chevron, Shell, NNPC, Saudi Aramco, Grant Thornton, and NatWest, where he has successfully overseen multi-million to multi-billion dollar projects", "Currently serving as a Senior Project Manager at Grant Thornton and Co-Founder of Melon Technologies, Dr. Aloku specializes in data governance, compliance,financial technology solutions, and business transformation.", "He has played a pivotal role in developing and implementing enterprise-wide data governance strategies, ensuring regulatory compliance, and optimizing business processes for enhanced efficiency. Dr.Aloku holds a PhD in Chemical Engineering from the University of Manchester, UK, and a First - Class BSc(Hons) in Industrial Chemistry from the University of Lagos, Nigeria.His academic and professional expertise extends into computational fluid dynamics(CFD), process engineering, financial structuring, and risk management.Throughout his career, he has been instrumental in engineering process optimization, regulatory compliance, and business strategy development, ensuring seamless project execution across industries."],
+            email: "Gabriel.Aloku@securedebit.co.uk"
         },
 
     ]
@@ -112,7 +115,7 @@ const Team = () => {
     );
 }
 
-const TeamMember = ({ name, role, img, about }: { name: string, role: string, img: string, about: string[] }) => {
+const TeamMember = ({ name, role, img, about, email }: { name: string, role: string, img: string, about: string[], email: string }) => {
     return (
         <div className="flex sm:flex-row flex-col pb-[4rem] sm:pb-[0] bg-[#F5F5F5] rounded-[2.8rem] gap-[.5rem] mx-auto items-center">
             <img
@@ -127,7 +130,7 @@ const TeamMember = ({ name, role, img, about }: { name: string, role: string, im
                     about.map((item, index) => {
                         if (index === 0) {
                             return (
-                                <p className="sm:max-w-[40rem] max-w-[28rem]  text-[#737373] sm:mt-[1rem] mt-[1rem] sm:text-[1.9rem]" key={index}>{item}{about.length >  1 && <span className="">...</span>}{about.length > 1 && (
+                                <p className="sm:max-w-[40rem] max-w-[28rem]  text-[#737373] sm:mt-[1rem] mt-[1rem] sm:text-[1.9rem]" key={index}>{item}{about.length > 1 && <span className="">...</span>}{about.length > 1 && (
                                     <Dialog>
                                         <DialogTrigger asChild>
                                             <span className="text-[#1B82E2] hover:cursor-pointer hidden sm:inline">Learn More</span>
@@ -153,13 +156,13 @@ const TeamMember = ({ name, role, img, about }: { name: string, role: string, im
                                                 <p className="">{about[2]}</p>
                                             </DialogDescription>
                                         </DialogContent>
-
                                     </Dialog>
                                 )}</p>
                             )
                         }
                     })
                 }
+                <p className="text-end font-[500] text-[1.6rem] mt-[4rem]">Email: <span className="text-[#595959]">{email}</span></p>
             </div>
         </div>
     )

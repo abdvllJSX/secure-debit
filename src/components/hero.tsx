@@ -27,7 +27,7 @@ const Hero = () => {
                     </p>
                 </div>
                 <Modal>
-                    <Button className="bg-[#1B82E2] hover:bg-[#092E4F] w-full sm:w-fit hover:text-white cursor-pointer  mt-[2.7rem] sm:mt-[4rem] px-[3rem] rounded-[.5rem] transition-all duration-100 text-[1.6rem] text-black sm:py-[2rem] py-[2rem] font-[600]">
+                    <Button className="bg-[#1B82E2] w-full sm:w-fit mt-[2.7rem] sm:mt-[4rem] px-[3rem] rounded-[.5rem] text-[1.6rem] text-black sm:py-[2rem] py-[2rem] font-[600]">
                         Contact Us
                     </Button>
                 </Modal>
