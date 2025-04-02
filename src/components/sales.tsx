@@ -1,4 +1,4 @@
-const sales = () => {
+const Sales = () => {
   return (
     <div className="sm:pt-[4rem] pt-[3rem] sm:pb-[5rem]">
       <h2 className="text-center sm:mb-[4rem] sm:text-[3rem] text-[2.8rem] text-[#000000] font-[500]">
@@ -30,4 +30,4 @@ const sales = () => {
   );
 };
 
-export default sales;
+export default Sales;
