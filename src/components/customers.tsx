@@ -1,17 +1,33 @@
+// THE BELOW IS A COMPONENT IT SHOULD BE PASACAL CASED (STARTS WITH A CAPITAL LETTER)
+// todo: 
+//   * CHANGE THE COMPONENT NAME TO Customers
+
+
 const customers = () => {
   return (
     <div className="sm:pt-[4rem] pt-[3rem] sm:pb-[5rem]">
       <h2 className="text-center sm:mb-[4rem] sm:text-[3rem] text-[2.8rem] text-[#000000] font-[500]">
         <span className="text-[#1B82E2]">Our</span> Customers
       </h2>
+
+      {/*
+       * todo:
+       *  EXTRACT THE BELOW INTO A SUB COMPONENT YOU CAN CKECK THE PREVIOUS CODE I HAVE WRITTEN AS REFERENCE (you can do it with chat gpt if you dont know how)
+       * DOWNLOAD THE IMAGES FROM FIGMA, PUT IN PUBLIC FOLDER AND REFRENCE THEM IN THE CODE
+       * DO NOT STYLE IN PIXELS USE THE REM EQUILENT INSTEAD 
+       */}
       <div className="sm:mt-[5rem] mt-[2rem] max-w-[1900px] mx-auto grid sm:grid-cols-2  gap-[2rem]">
         <div className=" max-w-[1900px] h-auto sm:h-[768px] bg-[#F5F5F5] rounded-[24.31px] sm:rounded-[40px]">
           <img
+
             src="https://www.figma.com/file/vLCmfMtgaGiBdNBpgSm0aK/image/185159130e4ab0ea3a7ada5683e75d0f79836507"
             alt="sample image"
             className="  w-full h-[186.58px] sm:h-[307px] object-cover rounded-t-[24.31px]"
           />
           <div className="m-7 md:m-10  h-auto gap-[16.41px]  sm:gap-[27px] sm:ml-[50px] sm:mt-[16px] ">
+            {/* 
+            THE FONT SIZE ID TOO BIG CHECK HOW I HAVE STYLED PREVIOUYS HEADINGS AND ADJUST ACCORDINGLY
+             */}
             <h1 className="p-5 md:p-8 text-[20px] md:text-[32px] leading-[100%] tracking-[-2%] font-semibold">
               Property Development
             </h1>

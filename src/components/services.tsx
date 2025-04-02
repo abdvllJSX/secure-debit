@@ -81,8 +81,18 @@ const Services = () => {
           <Card key={index} {...card} />
         ))}
       </div>
+      {/* 
+       * todo:
+       *   MOVE THE COMPONENT BElOW TO THE APP FILE 
+       */}
       <Customers />
       <Sales />
+
+      {/* todo:
+        * CREATE A NEW COMPONENT FOR DIRECT DEBIT
+        *   MOVE THE NEW COMPONENT TO THE APP FILE
+
+        */}
       <div className="pt-[3.5rem] max-w-[1900px] mx-auto pb-[5rem] sm:pb-[7rem] sm:rounded-[4rem] rounded-[2rem] mt-[5rem] sm:px-[4rem] bg-[#F5F5F5]">
         <h3 className="text-center text-[2rem] sm:text-[3rem]">
           Direct <span className="text-[#1B82E2] font-[600]">Debit</span>{" "}
