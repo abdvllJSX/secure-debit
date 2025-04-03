@@ -1,12 +1,3 @@
-// THE BELOW IS A COMPONENT IT SHOULD BE PASACAL CASED (STARTS WITH A CAPITAL LETTER)
-// todo:
-//   * CHANGE THE COMPONENT NAME TO Customers
-// interface CardProps {
-//   title: string;
-//   image: string;
-
-// }
-
 const Card = ({ image, items, title }) => {
   return (
     <div className="bg-[#F5F5F5] rounded-[2rem]">

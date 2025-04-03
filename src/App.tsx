@@ -4,6 +4,7 @@ import Hero from "./components/hero.tsx";
 import About from "./components/about.tsx";
 import Services from "./components/services.tsx";
 import Customers from "./components/customers.tsx";
+import Sales from "./components/sales.tsx";
 import DebitDirect from "./components/debit.tsx";
 import Team from "./components/team.tsx";
 import CTA from "./components/CTA.tsx";
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Services />
       <Customers />
+      <Sales />
       <DebitDirect />
       <Team />
       <CTA />
