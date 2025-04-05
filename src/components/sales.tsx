@@ -50,7 +50,7 @@ const Sales = () => {
 const Card = ({ text, image, idx }: CardProps) => {
   return (
     <div
-      className={`flex flex-col-reverse gap-[14rem] items-center text-center sm:flex-row  ${idx % 2 ? "sm:flex-row-reverse" : "sm:flex-row"
+      className={`flex flex-col-reverse sm:gap-[14rem] gap-[2rem] items-center text-center sm:flex-row  ${idx % 2 ? "sm:flex-row-reverse" : "sm:flex-row"
         }`}
     >
       <img
@@ -60,8 +60,8 @@ const Card = ({ text, image, idx }: CardProps) => {
       />
 
       <div className="flex items-start sm:w-[40rem] flex-col">
-        <div className="flex  justify-center items-center  w-[38.8px] h-[38.8px] rounded-full border border-[#1B82E2] text-black font-bold ">
-          <h2 className="tabular-nums text-[2rem]">{idx + 1}</h2>
+        <div className="flex mb-[1rem] justify-center items-center  w-[38.8px] h-[38.8px] rounded-full border border-[#1B82E2] text-black font-bold ">
+          <h2 className="tabular-nums font-[400] text-[2rem]">{idx + 1}</h2>
         </div>
         <p className="font-medium sm:mt-[2rem] text-left flex items-start leading-relaxed text-[1.8rem] sm:text-[2.5rem]">
           {text}

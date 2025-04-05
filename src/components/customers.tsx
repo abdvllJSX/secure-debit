@@ -7,7 +7,7 @@ interface CardProps {
 
 const Card = ({ image, items, title }: CardProps) => {
   return (
-    <div className="bg-[#F5F5F5] sm:pb-[3rem] rounded-[2rem]">
+    <div className="bg-[#F5F5F5] sm:pb-[3rem] pb-[2rem] rounded-[2rem]">
       <img
         src={image}
         alt={title}
