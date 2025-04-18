@@ -38,17 +38,17 @@ const Customers = () => {
       title: "Property Development",
       image: "/customer/customer1.png",
       items: [
-        " For your properties in Nigeria, you are marketing and targeting Diaspora",
+        "For your development projects and customers on instalment payments",
         " Your customers pay in installments",
-        "For money laundering and counter terrorism financing compliance, you desire to conduct KYC and Background checks on prospects at the point of application and on-boarding",
+        "For money laundering, compliance, KYC and Background checks on prospecting buyers at the point of application and on-boarding",
       ],
     },
     {
       title: "Financial Institutions",
       image: "/customer/customer2.png",
       items: [
-        "Your customers are in diaspora and looking to buy properties in Nigeria using mortgage financing",
-        "Your are required by the Central Bank to conduct mandatory KYC checks before account opening and on-boarding customers in diaspora",
+        "Mandatory KYC and AML checks before account opening and on-boarding customers",
+        "For Credit Report checks and Automated Direct Debit mandates deployed for collections of mortgage repayments",
         "For Credit Risk Management purposes, you will like to have Automated Direct Debit mandates deployed for collections of mortgage repayments",
       ],
     },
