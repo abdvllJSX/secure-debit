@@ -16,10 +16,10 @@ const Sales = () => {
       text: "Credit Reports on customers seeking mortgage facility for credit evaluation purposes",
       image: "/sales/credit.svg",
     },
-    {
-      text: "Automated Direct Debit to aid Efficient collections in foreign currencies.",
-      image: "/sales/automated.svg",
-    },
+    // {
+    //   text: "Automated Direct Debit to aid Efficient collections in foreign currencies.",
+    //   image: "/sales/automated.svg",
+    // },
   ];
 
   

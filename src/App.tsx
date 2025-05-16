@@ -17,9 +17,9 @@ function App() {
       <Hero />
       <About />
       <Services />
-      <Customers />
+      {/* <Customers /> */}
       <Sales />
-      <DebitDirect />
+      {/* <DebitDirect /> */}
       <Team />
       <CTA />
       <Footer />

@@ -23,7 +23,7 @@ const Hero = () => {
                         B2B Financial Technology <span className="text-[#1B82E2]">Solutions</span>
                     </h1>
                     <p className="sm:text-[2rem] text-[1.6rem] w-[90%] mt-[2rem] sm:w-[75%] mx-auto text-center leading-[1.9rem] sm:leading-[3rem] text-[#737373] font-[500]">
-                        Providing KYC and Direct Debit services for Mortgage Banks & Property Development Firms serving Diaspora customers
+                        Providing KYC and Credit checks for Mortgage Banks serving Diaspora customers in the UK, US, Canada and Europe
                     </p>
                 </div>
                 <Modal>

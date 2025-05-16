@@ -19,10 +19,16 @@ const About = () => {
 
                         <div className="">
                             <p className="">
-                                • KYC (Credit & Background checks)
+                                • Identity Validation
                             </p>
                             <p className="">
-                                • Direct Debit (for Loan Repayments & Installment payments)
+                                • Credit background - mortgages/ loans/ cards over the last 5yrs
+                            </p>
+                            <p className="">
+                                • Employment background over 5yrs
+                            </p>
+                            <p className="">
+                                • Credit score
                             </p>
                         </div>
 
