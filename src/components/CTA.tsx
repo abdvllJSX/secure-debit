@@ -10,7 +10,7 @@ const CTA = () => {
                         Ready to streamline your financial processes?
                     </h2>
                     <p className="sm:text-[2rem] text-[1.6rem] text-center sm:text-start text-[#737373] font-[500] max-w-[55rem] mt-[2rem]">
-                        Contact us today to learn how SecureDebit's KYC and Direct Debit services can benefit your business.
+                        Contact us today to learn how SecureDebit's KYC and Credit Debit services can benefit your business.
                     </p>
 
                     <Modal>
